@@ -1,0 +1,9 @@
+manifest = "00201b9e84b9598e844272d30ec498b98fbcd219d39b790414e01e38f6272068"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/eigen"
+target = "//:eigen"
+
+[lock."github.com/buckaroo-pm/eigen"]
+versions = [ "branch=master" ]
+revision = "edbb9e459fee8e1bb58e20493b7c03a98077c918"
